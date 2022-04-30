@@ -2,7 +2,7 @@
     var Height, Can_Ride;
     Height = document.getElementById("Height").value;
     Can_Ride = (Height < 52) ? "You are to short" : "Your height is just enough";
-    document.getElementById("Ride").innerHTML = Can_Ride + " to ride";
+    document.getElementById("Can_Ride").innerHTML = Can_Ride + " to ride";
 }
 
 function vote_Function() {
